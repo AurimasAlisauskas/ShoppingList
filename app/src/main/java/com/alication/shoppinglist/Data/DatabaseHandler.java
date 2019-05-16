@@ -25,7 +25,7 @@ public class DatabaseHandler extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase db) {
 
-        String CREATE_GROCERY_TABLE = "CREATE_TABLE " + Constants.TABLE_NAME + "("
+        String CREATE_GROCERY_TABLE = "CREATE TABLE " + Constants.TABLE_NAME + "("
                 + Constants.KEY_ID + " INTEGER PRIMARY KEY,"
                 + Constants.KEY_GROCERY_ITEM + " TEXT,"
                 + Constants.KEY_QTY_NUMBER + " TEXT,"
